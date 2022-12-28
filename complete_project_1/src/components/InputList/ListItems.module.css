@@ -1,0 +1,7 @@
+.listItem {
+    font-weight: 500;
+    list-style: none;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    border: 1px solid #0e0e0e2b;
+}

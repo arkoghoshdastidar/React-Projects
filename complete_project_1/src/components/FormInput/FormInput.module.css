@@ -1,0 +1,44 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-form {
+    width: 50%;
+    background-color: #eeefee;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    border: 1px solid #0e0e0e2b;
+    margin-top: 10px;
+}
+
+.submitBtn {
+    border: 1px solid #0e0e0e2b;
+    color: white;
+    background-color: #450e59;
+    align-self: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .submitBtn {
+        align-self: start;
+        width: auto;
+    }
+}
